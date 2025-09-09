@@ -30,9 +30,9 @@ class CreatorsCard extends StatelessWidget {
               const SizedBox(height: 12),
 
               // Table Header
-              Row(
+              const Row(
                 children: [
-                  const Expanded(
+                  Expanded(
                     flex: 4,
                     child: Text(
                       "Name",
@@ -43,7 +43,7 @@ class CreatorsCard extends StatelessWidget {
                       overflow: TextOverflow.ellipsis,
                     ),
                   ),
-                  const Expanded(
+                  Expanded(
                     flex: 2,
                     child: Text(
                       "Artworks",
@@ -55,7 +55,7 @@ class CreatorsCard extends StatelessWidget {
                       overflow: TextOverflow.ellipsis,
                     ),
                   ),
-                  const Expanded(
+                  Expanded(
                     flex: 1,
                     child: Text(
                       "Rating",
